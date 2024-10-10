@@ -1,0 +1,42 @@
+[INFO] main.py:75 > Set the device (cuda)
+[INFO] augment.py:18 > cifar10: autoaugmentation is applied
+[INFO] main.py:117 > Using train-transforms Compose(
+    RandomCrop(size=(32, 32), padding=4)
+    RandomHorizontalFlip(p=0.5)
+    AutoAugment CIFAR10 Policy
+    ToTensor()
+    <__main__.CutoutDefault object at 0x7fca6ab6c5e0>
+)
+[INFO] main.py:127 > [1] Select a CIL method (rm)
+[INFO] method_manager.py:97 > CIL Scenario: 
+[INFO] main.py:133 > [2] Incrementally training 6 tasks
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
+[INFO] main.py:143 > [2-1] Prepare a datalist for the current task
+[INFO] main.py:162 > [2-2] Set environment for the current task
+[INFO] finetune.py:103 > Apply before_task
+[INFO] finetune.py:134 > Reset the optimizer and scheduler states
+[INFO] main.py:169 > [2-3] Start to train under offline
