@@ -3,7 +3,7 @@ Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yan
 
 
 <p align="center">
-<img src=assets/00b8749e-3ece-46ea-ba57-5b25f3f3840c/>
+<img src=assets/00b8749e-3ece-46ea-ba57-5b25f3f3840c />
 </p>
 
 ## Overview
