@@ -1,6 +1,10 @@
 # [ACMMM2024] Sustainable Self-evolution Adversarial Training
 Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yanning Zhang
-![image](https://github.com/user-attachments/assets/00b8749e-3ece-46ea-ba57-5b25f3f3840c)
+
+
+<p align="center">
+<img src=assets/00b8749e-3ece-46ea-ba57-5b25f3f3840c/>
+</p>
 
 ## Overview
 When confronted with the challenge of ongoing generated new adversarial examples in complex and long-term multimedia applications, existing adversarial training methods struggle to adapt to iteratively updated attack methods. In contrast, our SSEAT model achieves sustainable defense performance improvements by continuously absorbing new adversarial knowledge.
@@ -13,7 +17,7 @@ conda env create -f requirements.yaml
 conda activate SSEAT
 ```
 ## Data Preparation
-Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and .
+Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and place the adversarial samples generated using the adversarial attack algorithm into the ```/dataset``` folder..
 ```
 /dataset
 ┣ 📂 CIFAR10
@@ -34,4 +38,17 @@ Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.
 ```
 
 ## Inference
+## RUN
+You can set the size of the hyperparameters in run.sh
+```
+bash experiment.sh
+```
 
+## Citation
+@inproceedings{wang2024sustainable,
+  title={Sustainable Self-evolution Adversarial Training},
+  author={Wang, Wenxuan and Wang, Chenglei and Qi, Huihui and Ye, Menghao and Qian, Xuelin and Wang, Peng and Zhang, Yanning},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={9799--9808},
+  year={2024}
+}
