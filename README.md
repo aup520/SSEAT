@@ -41,7 +41,7 @@ Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.
 ## RUN
 You can set the size of the hyperparameters in run.sh
 ```
-bash experiment.sh
+bash run.sh
 ```
 
 ## Citation
