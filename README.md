@@ -13,3 +13,25 @@ conda env create -f requirements.yaml
 conda activate SSEAT
 ```
 ## Data Preparation
+Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and .
+```
+/dataset
+┣ 📂 CIFAR10
+┃   ┣ 📂 data
+┃   ┃   ┗ 📜 FGSM.pth
+┃   ┃   ┗ 📜 PGD.pth
+┃   ┃   ┗ 📜 SIM.pth
+┃   ┃   ┗ 📜 DIM.pth
+┃   ┃   ┗ 📜 VNIM.pth
+┃
+┣ 📂 CIFAR100
+┃   ┣ 📂 data
+┃   ┃   ┗ 📜 FGSM.pth
+┃   ┃   ┗ 📜 PGD.pth
+┃   ┃   ┗ 📜 SIM.pth
+┃   ┃   ┗ 📜 DIM.pth
+┃   ┃   ┗ 📜 VNIM.pth
+```
+
+## Inference
+
