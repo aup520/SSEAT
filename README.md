@@ -1,6 +1,8 @@
 # [ACMMM2024] Sustainable Self-evolution Adversarial Training
 Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yanning Zhang
-![compare](https://github.com/user-attachments/assets/6e4238a3-d4d2-49d1-b849-0209e0ae5186)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e4238a3-d4d2-49d1-b849-0209e0ae5186" alt="compare">
+</p>
 
 ## Overview
 When confronted with the challenge of ongoing generated new adversarial examples in complex and long-term multimedia applications, existing adversarial training methods struggle to adapt to iteratively updated attack methods. In contrast, our SSEAT model achieves sustainable defense performance improvements by continuously absorbing new adversarial knowledge.
