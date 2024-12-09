@@ -1,7 +1,7 @@
 #/bin/bash
 
 # CIL CONFIG
-MODE="rm" # joint, gdumb, icarl, rm, ewc, rwalk, bic
+MODE="sseat" # joint, gdumb, icarl, rm, ewc, rwalk, bic
 # "default": If you want to use the default memory management method.
 MEM_MANAGE="default" # default, random, reservoir, uncertainty, prototype.
 RND_SEED=1
@@ -23,25 +23,12 @@ FEAT_SIZE=2048
 
 # BiC
 distilling="--distilling" # Normal BiC. If you do not want to use distilling loss, then "".
-
 if [ -d "tensorboard" ]; then
     rm -rf tensorboard
     echo "Remove the tensorboard dir"
 fi
 
-if [ "$DATASET" == "mnist" ]; then
-    TOTAL=50000 N_VAL=250 N_CLASS=10 TOPK=1
-    MODEL_NAME="mlp400"
-    N_EPOCH=30; BATCHSIZE=16; LR=0.05 OPT_NAME="sgd" SCHED_NAME="cos"
-    if [ "${MODE_LIST[0]}" == "joint" ]; then
-        N_INIT_CLS=10 N_CLS_A_TASK=10 N_TASKS=1
-    elif [[ "$EXP" == *"blurry"* ]]; then
-        N_INIT_CLS=10 N_CLS_A_TASK=2 N_TASKS=5
-    else
-        N_INIT_CLS=2 N_CLS_A_TASK=2 N_TASKS=5
-
-    fi
-elif [ "$DATASET" == "cifar10" ]; then
+if [ "$DATASET" == "cifar10" ]; then
     TOTAL=50000 N_VAL=250 N_CLASS=10 TOPK=1
     MODEL_NAME="resnet18"
     N_EPOCH=20; BATCHSIZE=128; LR=0.01 OPT_NAME="sgd" SCHED_NAME="cos"

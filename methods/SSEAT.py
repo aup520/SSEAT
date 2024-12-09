@@ -37,7 +37,7 @@ def cycle(iterable):
             yield i
 
 
-class RM(Finetune):
+class SSEAT(Finetune):
     def __init__(
         self, criterion, device, train_transform, test_transform, n_classes, **kwargs
     ):

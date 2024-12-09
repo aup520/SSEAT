@@ -50,8 +50,8 @@ def select_method(args, criterion, device, train_transform, test_transform, n_cl
             n_classes=n_classes,
             **kwargs,
         )
-    elif args.mode == "rm":
-        method = RM(
+    elif args.mode == "sseat":
+        method = SSEAT(
             criterion=criterion,
             device=device,
             train_transform=train_transform,
