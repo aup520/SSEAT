@@ -236,11 +236,11 @@ class Finetune:
         test_list=[]
         train_list=[]
         for t in range(len(x)):
-            loaded_data = torch.load('/home/workspace/wcl/atcode/data/{}lte.pth'.format(x[t]))
+            loaded_data = torch.load('./dataset/{}te.pth'.format(x[t]))
             tedata_list = loaded_data['advdata_list']
             telabel_list = loaded_data['advdata_labellt']
             test_list.append([tedata_list,telabel_list])
-        loaded_data = torch.load('/home/workspace/wcl/atcode/data/{}mtr.pth'.format(x[cur_iter]))
+        loaded_data = torch.load('./dataset/{}tr.pth'.format(x[cur_iter]))
         trdata_list =  loaded_data['advdata_list']
         trlabel_list = loaded_data['advdata_labellt']
         train_list=list(zip(trdata_list, trlabel_list))
