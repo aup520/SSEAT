@@ -6,7 +6,10 @@ Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yan
 
 ## Overview
 When confronted with the challenge of ongoing generated new adversarial examples in complex and long-term multimedia applications, existing adversarial training methods struggle to adapt to iteratively updated attack methods. In contrast, our SSEAT model achieves sustainable defense performance improvements by continuously absorbing new adversarial knowledge.
-![over](https://github.com/user-attachments/assets/7501e123-3a68-407a-829b-d6d5dad4231e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7501e123-3a68-407a-829b-d6d5dad4231e" alt="over">
+</p>
+
 
 ## Environment Setups
 Create and activate conda environment named ```SSEAT``` from our ```requirements.yaml```
