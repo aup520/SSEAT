@@ -45,6 +45,7 @@ bash run.sh
 ```
 
 ## Citation
+```
 @inproceedings{wang2024sustainable,
   title={Sustainable Self-evolution Adversarial Training},
   author={Wang, Wenxuan and Wang, Chenglei and Qi, Huihui and Ye, Menghao and Qian, Xuelin and Wang, Peng and Zhang, Yanning},
@@ -52,3 +53,4 @@ bash run.sh
   pages={9799--9808},
   year={2024}
 }
+```
