@@ -1,5 +1,5 @@
 # [ACMMM2024] Sustainable Self-evolution Adversarial Training
-[arxiv](https://arxiv.org/abs/2412.02270) Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yanning Zhang
+#[arxiv](https://arxiv.org/abs/2412.02270) Wenxuan Wang, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian*, Peng Wang, Yanning Zhang
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6e4238a3-d4d2-49d1-b849-0209e0ae5186" alt="compare">
 </p>
