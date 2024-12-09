@@ -38,7 +38,6 @@ Please download the CIFAR-10 and CIFAR-100 datasets from [CIFAR](https://www.cs.
 ┃   ┃   ┗ 📜 VNIM.pth
 ```
 
-## Inference
 ## RUN
 You can set the size of the hyperparameters in run.sh
 ```
